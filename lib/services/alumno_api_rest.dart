@@ -37,6 +37,7 @@ class ApiRest {
   try {
     final response = await client.post(
       url,
+      
       headers: headers,
       body: jsonEncode({
       'jsonrpc': '2.0',
